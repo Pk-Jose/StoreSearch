@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		3324130328DA7C93006A2112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324130228DA7C93006A2112 /* AppDelegate.swift */; };
 		3324130528DA7C93006A2112 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324130428DA7C93006A2112 /* SceneDelegate.swift */; };
-		3324130728DA7C93006A2112 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324130628DA7C93006A2112 /* ViewController.swift */; };
-		3324130A28DA7C93006A2112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3324130828DA7C93006A2112 /* Main.storyboard */; };
+		3324130728DA7C93006A2112 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324130628DA7C93006A2112 /* SearchViewController.swift */; };
 		3324130C28DA7CA2006A2112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3324130B28DA7CA2006A2112 /* Assets.xcassets */; };
-		3324130F28DA7CA2006A2112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3324130D28DA7CA2006A2112 /* LaunchScreen.storyboard */; };
+		3324131728DB4AAD006A2112 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324131628DB4AAD006A2112 /* SearchResult.swift */; };
+		3324131D28DBD71A006A2112 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324131C28DBD71A006A2112 /* SearchResultCell.swift */; };
+		3324131F28DBDBA6006A2112 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3324131E28DBDBA6006A2112 /* NothingFoundCell.xib */; };
+		3324132128DBEC34006A2112 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3324132028DBEC34006A2112 /* SearchResultCell.xib */; };
+		3324132328DD110F006A2112 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3324132228DD110F006A2112 /* LoadingCell.xib */; };
+		3324132528DD3616006A2112 /* UIImageView+DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324132428DD3616006A2112 /* UIImageView+DownloadImage.swift */; };
+		3345BE5728DD410600612B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3345BE5628DD410600612B6B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		332412FF28DA7C93006A2112 /* StoreSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3324130228DA7C93006A2112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3324130428DA7C93006A2112 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3324130628DA7C93006A2112 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3324130928DA7C93006A2112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3324130628DA7C93006A2112 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		3324130B28DA7CA2006A2112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3324130E28DA7CA2006A2112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3324131028DA7CA2006A2112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3324131628DB4AAD006A2112 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		3324131C28DBD71A006A2112 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		3324131E28DBDBA6006A2112 /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
+		3324132028DBEC34006A2112 /* SearchResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SearchResultCell.xib; path = "../../../../IOS-materials-editions-10.0/04-store-search/source-code/33-custom-table-cells/chapter-33-final/StoreSearch/SearchResultCell.xib"; sourceTree = "<group>"; };
+		3324132228DD110F006A2112 /* LoadingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		3324132428DD3616006A2112 /* UIImageView+DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownloadImage.swift"; sourceTree = "<group>"; };
+		3345BE5628DD410600612B6B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				3324130228DA7C93006A2112 /* AppDelegate.swift */,
 				3324130428DA7C93006A2112 /* SceneDelegate.swift */,
-				3324130628DA7C93006A2112 /* ViewController.swift */,
-				3324130828DA7C93006A2112 /* Main.storyboard */,
+				3324130628DA7C93006A2112 /* SearchViewController.swift */,
+				3324132428DD3616006A2112 /* UIImageView+DownloadImage.swift */,
+				3324132228DD110F006A2112 /* LoadingCell.xib */,
 				3324130B28DA7CA2006A2112 /* Assets.xcassets */,
-				3324130D28DA7CA2006A2112 /* LaunchScreen.storyboard */,
 				3324131028DA7CA2006A2112 /* Info.plist */,
+				3345BE5628DD410600612B6B /* Main.storyboard */,
+				3324131E28DBDBA6006A2112 /* NothingFoundCell.xib */,
+				3324132028DBEC34006A2112 /* SearchResultCell.xib */,
+				3324131628DB4AAD006A2112 /* SearchResult.swift */,
+				3324131C28DBD71A006A2112 /* SearchResultCell.swift */,
 			);
 			path = StoreSearch;
 			sourceTree = "<group>";
@@ -125,9 +140,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3324130F28DA7CA2006A2112 /* LaunchScreen.storyboard in Resources */,
 				3324130C28DA7CA2006A2112 /* Assets.xcassets in Resources */,
-				3324130A28DA7C93006A2112 /* Main.storyboard in Resources */,
+				3324132328DD110F006A2112 /* LoadingCell.xib in Resources */,
+				3324131F28DBDBA6006A2112 /* NothingFoundCell.xib in Resources */,
+				3345BE5728DD410600612B6B /* Main.storyboard in Resources */,
+				3324132128DBEC34006A2112 /* SearchResultCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +155,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3324130728DA7C93006A2112 /* ViewController.swift in Sources */,
+				3324130728DA7C93006A2112 /* SearchViewController.swift in Sources */,
 				3324130328DA7C93006A2112 /* AppDelegate.swift in Sources */,
+				3324132528DD3616006A2112 /* UIImageView+DownloadImage.swift in Sources */,
+				3324131728DB4AAD006A2112 /* SearchResult.swift in Sources */,
 				3324130528DA7C93006A2112 /* SceneDelegate.swift in Sources */,
+				3324131D28DBD71A006A2112 /* SearchResultCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3324130828DA7C93006A2112 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3324130928DA7C93006A2112 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3324130D28DA7CA2006A2112 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3324130E28DA7CA2006A2112 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3324131128DA7CA2006A2112 /* Debug */ = {
@@ -291,6 +292,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StoreSearch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +320,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StoreSearch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
